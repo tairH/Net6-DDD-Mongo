@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{B8207DF2-85BD-49BB-8DAC-3C29604E2DD5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Application/Controllers/LockController.cs">
+    <Files>
+      <File FileName="Dockerfile" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="18" Column="3" />
+      <File FileName="Program.cs" Line="31" Column="1" />
+      <File FileName="Domain/Entities/Lock.cs" Line="15" Column="17" />
+      <File FileName="Application/Controllers/LockController.cs" Line="18" Column="49" />
+      <File FileName="Infrastructure/IBaseRepository.cs" Line="37" Column="14" />
+      <File FileName="appsettings.json" Line="12" Column="16" />
+      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Net6ApiExmple" expanded="True">
+            <Node name="docker-compose" expanded="True" />
+            <Node name="Net6ApiExmple" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Net6ApiExmple PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

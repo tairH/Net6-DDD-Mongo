@@ -1,0 +1,1 @@
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache

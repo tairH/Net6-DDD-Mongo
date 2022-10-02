@@ -1,0 +1,13 @@
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Net6ApiExmple
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/appsettings.Development.json
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/appsettings.json
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Net6ApiExmple.dll
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Net6ApiExmple.deps.json
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Net6ApiExmple.runtimeconfig.json
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Net6ApiExmple.pdb
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Docker.DotNet.dll
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Microsoft.OpenApi.dll
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Newtonsoft.Json.dll
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/bin/Release/net6.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

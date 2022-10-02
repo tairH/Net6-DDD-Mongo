@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/Net6ApiExmple.csproj": {}
+  },
+  "projects": {
+    "/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/Net6ApiExmple.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/Net6ApiExmple.csproj",
+        "projectName": "Net6ApiExmple",
+        "projectPath": "/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/Net6ApiExmple.csproj",
+        "packagesPath": "/Users/tair/.nuget/packages/",
+        "outputPath": "/Users/tair/repos/Net6ApiExmple/Net6ApiExmple/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/F77e5Us52KwqeMmtewub5tjqYLTD2bkP1lNnjvtlIffUDEigwq/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.5, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

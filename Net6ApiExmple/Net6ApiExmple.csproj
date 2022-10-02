@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>6a6bb91e-81fb-49b6-ba5a-d8fa4ba7a6da</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Docker.DotNet" Version="3.125.5" />
+    <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Docker.DotNet" />
+    <None Remove="MongoDB.Driver" />
+    <None Remove="Domain\" />
+    <None Remove="Appliction\" />
+    <None Remove="Domain\Entities\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Infrastructure\contracts\" />
+    <None Remove="configuration\" />
+    <None Remove="Application\Controllers\" />
+    <None Remove="Application\utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Application\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\contracts\" />
+    <Folder Include="configuration\" />
+    <Folder Include="Application\Controllers\" />
+    <Folder Include="Application\utils\" />
+  </ItemGroup>
+</Project>

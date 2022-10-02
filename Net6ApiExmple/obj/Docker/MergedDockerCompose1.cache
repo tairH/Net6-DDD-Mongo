@@ -1,0 +1,37 @@
+services:
+  mongo:
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_ROOT_USERNAME: root
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+  mongo-express:
+    depends_on:
+      mongo:
+        condition: service_started
+    environment:
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+    image: mongo-express
+    ports:
+    - published: 8081
+      target: 8081
+    restart: always
+  net6apiexmple:
+    build:
+      context: /Users/tair/repos/Net6ApiExmple/Net6ApiExmple
+      dockerfile: ./Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: net6apiexmple
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/tair/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/tair/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
